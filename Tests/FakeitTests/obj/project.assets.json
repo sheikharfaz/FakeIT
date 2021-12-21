@@ -4346,32 +4346,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/sheikharfaz/.nuget/packages/": {}
+    "C:\\Users\\sheik\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sheikharfaz/Augmento Labs Assigment/AssignmentL2/Tests/FakeitTests/FakeitTests.csproj",
+      "projectUniqueName": "C:\\Users\\sheik\\source\\repos\\FakeIT\\Tests\\FakeitTests\\FakeitTests.csproj",
       "projectName": "FakeitTests",
-      "projectPath": "/Users/sheikharfaz/Augmento Labs Assigment/AssignmentL2/Tests/FakeitTests/FakeitTests.csproj",
-      "packagesPath": "/Users/sheikharfaz/.nuget/packages/",
-      "outputPath": "/Users/sheikharfaz/Augmento Labs Assigment/AssignmentL2/Tests/FakeitTests/obj/",
+      "projectPath": "C:\\Users\\sheik\\source\\repos\\FakeIT\\Tests\\FakeitTests\\FakeitTests.csproj",
+      "packagesPath": "C:\\Users\\sheik\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sheik\\source\\repos\\FakeIT\\Tests\\FakeitTests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/Users/sheikharfaz/.config/NuGet/NuGet.Config"
+        "C:\\Users\\sheik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/sheikharfaz/Augmento Labs Assigment/AssignmentL2/FakeIT/FakeIT.csproj": {
-              "projectPath": "/Users/sheikharfaz/Augmento Labs Assigment/AssignmentL2/FakeIT/FakeIT.csproj"
+            "C:\\Users\\sheik\\source\\repos\\FakeIT\\FakeIT\\FakeIT.csproj": {
+              "projectPath": "C:\\Users\\sheik\\source\\repos\\FakeIT\\FakeIT\\FakeIT.csproj"
             }
           }
         }
@@ -4420,11 +4427,14 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

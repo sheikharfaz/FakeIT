@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using FakeIT.Repo;
+using FakeIT.Services;
 using FakeItEasy;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,48 +14,19 @@ namespace FakeIT.Controllers
     [Route("api/[controller]")]
     public class SimpleInterestlass : Controller
     {
+        private readonly IFakeIt _fakeitService;
 
-        //float resultOfMultiplication;
-        //float resultOfDivision;
-
-        // GET: api/values
+        public SimpleInterestlass(IFakeIt fakeitService)
+        {
+            this._fakeitService = fakeitService;
+        }
+        
         [HttpGet]
         public float SI(float P, float R, float N)
         {
+            IMath math = _fakeitService.FakeMathClass();
 
-            //var fakeMath = A.Fake<IMath>();
-            //var arithmatic = new Arithmetic();
-
-            //A.
-            //    CallTo(() => fakeMath.Add(P, R)).Returns(P + R);
-
-            //A.
-            //    CallTo(() => fakeMath.Substract(P, R)).Returns(P - R);
-            //A.
-            //    CallTo(() => fakeMath.Multiply(A<float>._, A<float>._)).Invokes(
-            //    (float a, float b) => this.resultOfMultiplication = arithmatic.Multiply(a, b)
-            //    );
-
-            //A.
-            //    CallTo(() => fakeMath.Divide(A<float>._, A<float>._)).Invokes(
-            //    (float a, float b) => this.resultOfDivision = arithmatic.Divide(a, b)
-            //    );
-            //fakeMath.Multiply(P, R);
-            //fakeMath.Multiply(this.resultOfMultiplication, N);
-
-            //fakeMath.Divide(this.resultOfMultiplication, 100);
-
-            //return this.resultOfDivision;
-
-            var fakeMathClass = A.Fake<IMath>();
-
-            A.CallTo(() => fakeMathClass.Multiply(A<float>._, A<float>._, A<float>._)).Returns(9000);
-
-            A.CallTo(() => fakeMathClass.Divide(9000,100)).Returns(90);
-
-            var multiplyResult = fakeMathClass.Multiply(P, R, N);
-
-            return fakeMathClass.Divide(multiplyResult,100);
+            return math.Divide(math.Multiply(P, R, N), 100);
         }
     }     
 }

@@ -27,3 +27,34 @@
 /Users/sheikharfaz/Augmento Labs Assigment/AssignmentL2/FakeIT/obj/Debug/net5.0/ref/FakeIT.dll
 /Users/sheikharfaz/Augmento Labs Assigment/AssignmentL2/FakeIT/obj/Debug/net5.0/FakeIT.pdb
 /Users/sheikharfaz/Augmento Labs Assigment/AssignmentL2/FakeIT/obj/Debug/net5.0/FakeIT.genruntimeconfig.cache
+C:\Users\sheik\source\repos\FakeIT\FakeIT\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\sheik\source\repos\FakeIT\FakeIT\bin\Debug\net5.0\appsettings.json
+C:\Users\sheik\source\repos\FakeIT\FakeIT\bin\Debug\net5.0\FakeIT.exe
+C:\Users\sheik\source\repos\FakeIT\FakeIT\bin\Debug\net5.0\FakeIT.deps.json
+C:\Users\sheik\source\repos\FakeIT\FakeIT\bin\Debug\net5.0\FakeIT.runtimeconfig.json
+C:\Users\sheik\source\repos\FakeIT\FakeIT\bin\Debug\net5.0\FakeIT.runtimeconfig.dev.json
+C:\Users\sheik\source\repos\FakeIT\FakeIT\bin\Debug\net5.0\FakeIT.dll
+C:\Users\sheik\source\repos\FakeIT\FakeIT\bin\Debug\net5.0\ref\FakeIT.dll
+C:\Users\sheik\source\repos\FakeIT\FakeIT\bin\Debug\net5.0\FakeIT.pdb
+C:\Users\sheik\source\repos\FakeIT\FakeIT\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\sheik\source\repos\FakeIT\FakeIT\bin\Debug\net5.0\FakeItEasy.dll
+C:\Users\sheik\source\repos\FakeIT\FakeIT\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\sheik\source\repos\FakeIT\FakeIT\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\sheik\source\repos\FakeIT\FakeIT\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\sheik\source\repos\FakeIT\FakeIT\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\sheik\source\repos\FakeIT\FakeIT\obj\Debug\net5.0\FakeIT.csprojAssemblyReference.cache
+C:\Users\sheik\source\repos\FakeIT\FakeIT\obj\Debug\net5.0\FakeIT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sheik\source\repos\FakeIT\FakeIT\obj\Debug\net5.0\FakeIT.AssemblyInfoInputs.cache
+C:\Users\sheik\source\repos\FakeIT\FakeIT\obj\Debug\net5.0\FakeIT.AssemblyInfo.cs
+C:\Users\sheik\source\repos\FakeIT\FakeIT\obj\Debug\net5.0\FakeIT.csproj.CoreCompileInputs.cache
+C:\Users\sheik\source\repos\FakeIT\FakeIT\obj\Debug\net5.0\FakeIT.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\sheik\source\repos\FakeIT\FakeIT\obj\Debug\net5.0\FakeIT.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sheik\source\repos\FakeIT\FakeIT\obj\Debug\net5.0\staticwebassets\FakeIT.StaticWebAssets.Manifest.cache
+C:\Users\sheik\source\repos\FakeIT\FakeIT\obj\Debug\net5.0\staticwebassets\FakeIT.StaticWebAssets.xml
+C:\Users\sheik\source\repos\FakeIT\FakeIT\obj\Debug\net5.0\scopedcss\bundle\FakeIT.styles.css
+C:\Users\sheik\source\repos\FakeIT\FakeIT\obj\Debug\net5.0\FakeIT.RazorTargetAssemblyInfo.cache
+C:\Users\sheik\source\repos\FakeIT\FakeIT\obj\Debug\net5.0\FakeIT.csproj.CopyComplete
+C:\Users\sheik\source\repos\FakeIT\FakeIT\obj\Debug\net5.0\FakeIT.dll
+C:\Users\sheik\source\repos\FakeIT\FakeIT\obj\Debug\net5.0\ref\FakeIT.dll
+C:\Users\sheik\source\repos\FakeIT\FakeIT\obj\Debug\net5.0\FakeIT.pdb
+C:\Users\sheik\source\repos\FakeIT\FakeIT\obj\Debug\net5.0\FakeIT.genruntimeconfig.cache

@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\FakeIT",
+    "\\FakeIT\\Controllers",
+    "\\FakeIT\\Services",
+    "\\Tests\\FakeitTests"
+  ],
+  "SelectedNode": "\\FakeIT\\appsettings.Development.json",
+  "PreviewInSolutionExplorer": false
+}
