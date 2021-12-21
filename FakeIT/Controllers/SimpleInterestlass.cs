@@ -21,7 +21,7 @@ namespace FakeIT.Controllers
         [HttpGet]
         public float SI(float P, float R, float N)
         {
-            
+
             //var fakeMath = A.Fake<IMath>();
             //var arithmatic = new Arithmetic();
 
@@ -46,7 +46,15 @@ namespace FakeIT.Controllers
 
             //return this.resultOfDivision;
 
-            return (P * R * N) / 100;
+            var fakeMathClass = A.Fake<IMath>();
+
+            A.CallTo(() => fakeMathClass.Multiply(A<float>._, A<float>._, A<float>._)).Returns(9000);
+
+            A.CallTo(() => fakeMathClass.Divide(9000,100)).Returns(90);
+
+            var multiplyResult = fakeMathClass.Multiply(P, R, N);
+
+            return fakeMathClass.Divide(multiplyResult,100);
         }
     }     
 }

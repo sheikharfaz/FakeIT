@@ -1,0 +1,46 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{7C2039EC-2439-40E7-BEDC-93056281892A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="../Tests/FakeitTests/UnitTest1.cs" Line="41" Column="1" />
+      <File FileName="Repo/IMath.cs" Line="9" Column="40" />
+      <File FileName="Controllers/SimpleInterestlass.cs" Line="56" Column="1" />
+      <File FileName="Controllers/Arithmetic.cs" Line="13" Column="20" />
+      <File FileName="Program.cs" Line="16" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FakeIT" expanded="True">
+            <Node name="Tests" expanded="True">
+              <Node name="FakeitTests" expanded="True" />
+            </Node>
+            <Node name="FakeIT" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Repo" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="FakeIT" expanded="True" selected="True">
+            <Node name="Tests" expanded="True">
+              <Node name="FakeitTests" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.FakeIT PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>FakeitTests/FakeitTests.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
